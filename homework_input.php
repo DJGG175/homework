@@ -9,7 +9,7 @@ $kotelezo=array("magyar nyelv és irodalom","történelem","matematika");
 //pontnak
 $watchout=false;
 $tipus;
-//töbletnek
+//többletnek
 $tipus2;
 
 
@@ -62,7 +62,7 @@ $nyelvvizsga=array();
                     
                     }
 
-                    //ha szám azaz eredmény és 20% akkor számítsuk bele a követelményekbe
+                    //ha szám azaz "eredmény" és 20% akkor számítsuk bele a követelményekbe
                     if(is_numeric(substr($ertek,0,2)) && substr($ertek,0,2) > 20)
                     {
                         $erettsegi++;
